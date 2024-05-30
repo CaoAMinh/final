@@ -1,0 +1,111 @@
+input[type="date"] {
+  max-width: 200px;
+  width: 100%;
+  padding: 2px;
+  padding-top: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+  font-size: 16px;
+  color: #333;
+  outline: none;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input[type="date"]:focus {
+  border-color: #66afe9;
+  box-shadow: 0 0 5px rgba(102, 175, 233, 0.6);
+  background-color: #fff;
+}
+
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-clear-button {
+  display: none;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  cursor: pointer;
+  color: #333;
+}
+input[type="number"] {
+  max-width: 200px;
+  width: 100%;
+  padding: 2px;
+  padding-top: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+  font-size: 16px;
+  color: #333;
+  outline: none;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input[type="number"]:focus {
+  border-color: #66afe9;
+  box-shadow: 0 0 5px rgba(102, 175, 233, 0.6);
+  background-color: #fff;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-clear-button {
+  display: none;
+}
+
+input[type="number"]::-webkit-calendar-picker-indicator {
+  cursor: pointer;
+  color: #333;
+}
+.card_fillter {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.card-title-2.card_fillter {
+  gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+.custom-datepicker {
+  width: 100%;
+  font-size: 16px;
+  padding: 8px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  background-color: #ffffff;
+}
+
+.custom-datepicker-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.custom-form-control {
+  min-width: 120px;
+  padding-bottom: 10px;
+}
+.boxxinputQuy {
+  display: flex;
+  padding: 0 10px;
+  gap: 10px;
+}
+.boxxinputQuy > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  gap: 10px;
+}
+.boxxinputQuy > div > input {
+  min-width: 100px;
+}
+.react-datepicker__input-container > input {
+  padding: 6px;
+}
+@media (max-width: 766) {
+  .card-title-2.card_fillter {
+    overflow-x: scroll;
+  }
+}

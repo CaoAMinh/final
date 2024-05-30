@@ -1,0 +1,19 @@
+.container-items {
+  display: flex;
+  gap: 20px;
+  padding: 0 20px;
+  flex-grow: 1;
+}
+
+.item-herro {
+  padding: 10px 20px;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  font-size: 1.07142857rem;
+}

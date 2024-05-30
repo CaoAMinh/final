@@ -1,0 +1,26 @@
+import express from "express";
+import { authRouter } from "./auth";
+import { productRouter } from "./product";
+import { vendorRouter } from "./vendor";
+import { categoryRouter } from "./category";
+import { locationRouter } from "./location";
+import { customerRouter } from "./customer";
+import { orderRouter } from "./order";
+import { paymentRouter } from "./payment";
+import { contactRouter } from "./contact";
+import { voucherRouter } from "./voucher";
+import { cartRouter } from "./cart";
+
+export const restRouter = express.Router();
+restRouter.use("/auth", authRouter);
+restRouter.use("/customer", customerRouter);
+restRouter.use("/location", locationRouter);
+restRouter.use("/product", productRouter);
+restRouter.use("/vendor", vendorRouter);
+restRouter.use("/supplier", vendorRouter);
+restRouter.use("/category", categoryRouter);
+restRouter.use("/order", orderRouter);
+restRouter.use("/payment", paymentRouter);
+restRouter.use("/contact", contactRouter);
+restRouter.use("/voucher", voucherRouter);
+restRouter.use("/cart", cartRouter);
